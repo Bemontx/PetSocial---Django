@@ -4,7 +4,7 @@ PetSocial es una plataforma en línea que permite a los usuarios registrar infor
 
 
 
-![web](static/images/Captura desde 2024-02-27 17-16-09.png)
+![web](static/images/django.png)
 
 
 ## Características principales:
