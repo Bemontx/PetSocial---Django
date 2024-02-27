@@ -1,0 +1,42 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nuestros Servicios</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body class="bg-light">
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Nuestros Servicios</h1>
+        <p class="text-center">Descubre los increíbles servicios que ofrecemos para tu mascota.</p>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-4 shadow-sm">
+                    <img src="{% static 'images/vet.jpg' %}" class="card-img-top" alt="Consulta Veterinaria">
+                    <div class="card-body">
+                        <h5 class="card-title">Consulta veterinaria</h5>
+                        <p class="card-text">Realizamos exámenes médicos completos para garantizar la salud de tu mascota.</p>
+                        <a href="#" class="btn btn-primary">Agendar cita</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-4 shadow-sm">
+                    <img src="{% static 'images/hairdress.jpeg' %}" class="card-img-top" alt="Peluquería Canina">
+                    <div class="card-body">
+                        <h5 class="card-title">Peluquería canina</h5>
+                        <p class="card-text">Deja que nuestros expertos cuiden del pelaje de tu perro con nuestros servicios de peluquería.</p>
+                        <a href="#" class="btn btn-primary">Reservar sesión</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

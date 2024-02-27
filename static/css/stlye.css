@@ -1,0 +1,96 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin:  0;
+    padding:  0;
+    background-color: #f4f4f4;
+}
+
+img {
+    max-width:  100%;
+    height: auto;
+}
+
+
+/* Estilos para el encabezado */
+header {
+    background-color: #333;
+    color: white;
+    padding:  20px;
+    text-align: center;
+}
+
+header h1 {
+    margin:  0;
+}
+
+header p {
+    font-size:  1.2em;
+}
+
+/* Estilos para las secciones de servicios */
+.servicio {
+    background-color: #fff;
+    margin:  20px;
+    padding:  20px;
+    border-radius:  5px;
+    box-shadow:  0  0  10px rgba(0,0,0,0.1);
+}
+
+.servicio h2 {
+    color: #333;
+}
+
+.servicio p {
+    font-size:  1em;
+    margin-bottom:  20px;
+}
+
+.servicio img {
+    width:  100%;
+    height: auto;
+    border-radius:  5px;
+}
+
+.servicio button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding:  10px  20px;
+    border-radius:  5px;
+    cursor: pointer;
+    transition: background-color  0.3s ease;
+}
+
+.servicio button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding:  20px;
+    position: fixed;
+    bottom:  0;
+    width:  100%;
+}
+
+footer p {
+    margin:  0;
+}
+
+footer button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding:  10px  20px;
+    border-radius:  5px;
+    cursor: pointer;
+    transition: background-color  0.3s ease;
+}
+
+footer button:hover {
+    background-color: #0056b3;
+}
